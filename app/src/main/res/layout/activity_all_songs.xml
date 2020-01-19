@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlayPage"
+    android:orientation="vertical">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight=".5"
+        android:background="@drawable/gradient_background">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="163dp"
+            android:layout_height="26dp"
+            android:layout_marginTop="6dp"
+            android:text="Current Songs List"
+            android:textColor="#000000"
+            android:textSize="22sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="211dp"
+            android:layout_height="266dp"
+            android:layout_margin="10dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="36dp"
+            android:text="ladbroke grove
+\ntaste make it shake \ndon't call me angel \nprofessor x \noutnumbered \n3 nights \ntake me back to london
+\nboth \nsorry \nbe honest"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/textView13"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="159dp"
+            android:layout_height="271dp"
+            android:layout_margin="10dp"
+            android:layout_marginTop="28dp"
+            android:text="higher love \nransom \ncircles \ngoodbyes
+            \nride it \npost malone \nhow do you sleep \nsenorita \ndance monkey \nstrike a pose"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingHomeButton"
+            android:layout_width="54dp"
+            android:layout_height="59dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:backgroundTint="#AA714D"
+            android:clickable="true"
+            android:tint="#090808"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_home_black_24dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight=".5"
+        android:background="@drawable/gradient_classic">
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="212dp"
+            android:layout_height="277dp"
+            android:layout_margin="10dp"
+            android:text="higher love \nbohemian rhapsody \nI can't get no satisfaction \ngod save the queen
+            \nhey jude \nlondon calling \nhotel california \nwaterloo sunset \none \ni will always love you"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="159dp"
+            android:layout_height="270dp"
+            android:layout_margin="10dp"
+            android:layout_marginStart="16dp"
+            android:text="like a rolling stone
+\nlife on mars \nyour song \nsweet child o mine \nimagine \nover the rainbow \nstairway to heaven
+\nbillie jean \nlike teen spirit \nlive forever"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/textView14"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="163dp"
+            android:layout_height="26dp"
+            android:layout_marginTop="6dp"
+            android:text="Classic Songs List"
+            android:textColor="#000000"
+            android:textSize="22sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

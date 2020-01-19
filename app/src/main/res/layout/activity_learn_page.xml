@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LearnPage"
+    android:background="@drawable/green_gradient_background">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="158dp"
+        android:layout_height="65dp"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="Learn"
+        android:textColor="#000000"
+        android:textSize="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="367dp"
+        android:layout_height="622dp"
+        android:layout_margin="6dp"
+        android:text="This is a song finding and guessing game. As a nightingale your goal is to collect as many musical notes as possible to signify your musical mastery
+\n Notes can be procured by rightfully guessing either the song or an artist of a lyric. The lyrics are scattered around swansea bay campus.
+\n A note can be captured once you enter its active area highlighted in brown in the map and click on the capture button. This will take you to your camera view where you have to look for a flat surface and drop the
+note. After dropping the note you can observe and interact with the note in an augmented reality space. Here a note can either be collected to be guessed later or to guess there and then. Guessing the note immediatly
+gives the player double points for both song and artist. This enforces a risk reward playstyle where the user choses between viewing the lyric unlimited times for fewer points or guessing the lyric on the spot for more points
+\nAdvanced- A user can invest notes for knowledge. If you fail to to know what a lyric is you can use note to buy the name of the song and artist. This ensures that when you meet the lyric again, you are well equipped to get
+double points"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingHomeButton"
+        android:layout_width="54dp"
+        android:layout_height="59dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:backgroundTint="#AA714D"
+        android:clickable="true"
+        android:tint="#090808"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_home_black_24dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
